@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Smash Burger",
+    "category": "burger",
+    "price": 320,
+    "available": true,
+    "description": "Doble carne, cheddar, pickles"
+  },
+  {
+    "id": 2,
+    "name": "Wrap Pollo",
+    "category": "wrap",
+    "price": 280,
+    "available": true,
+    "description": "Pollo grillado, lechuga, salsa ranch"
+  },
+  {
+    "id": 3,
+    "name": "Papas Crispy",
+    "category": "side",
+    "price": 160,
+    "available": false,
+    "description": ""
+  },
+  {
+    "id": 4,
+    "name": "Limonada",
+    "category": "bebida",
+    "price": 120,
+    "available": true,
+    "description": "Natural, con jengibre"
+  }
+]
