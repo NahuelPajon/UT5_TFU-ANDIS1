@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException
 from views.payment_view import PaymentResponse
 from models import payment as payment_model
 
-router = APIRouter(prefix="/payments", tags=["Pagos"])
+router = APIRouter(prefix="/payments", tags=["MVC - Pagos"])
 
 @router.get("/{order_id}", response_model=PaymentResponse, summary="Consultar pago de un pedido")
 def get_payment(order_id: int):

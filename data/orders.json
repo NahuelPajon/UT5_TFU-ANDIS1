@@ -2,7 +2,7 @@
   {
     "id": 1,
     "number": 1,
-    "status": "ready",
+    "status": "delivered",
     "items": [
       {
         "menu_item_id": 1,
@@ -32,5 +32,124 @@
     "payment_method": "online",
     "estimated_minutes": 12,
     "created_at": "2026-06-17T19:30:17.287149"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "status": "ready",
+    "items": [
+      {
+        "menu_item_id": 1,
+        "name": "Smash Burger",
+        "quantity": 4,
+        "unit_price": 320
+      }
+    ],
+    "total": 1280,
+    "payment_method": "online",
+    "estimated_minutes": 12,
+    "created_at": "2026-06-18T20:30:50.153029"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "status": "pending",
+    "items": [
+      {
+        "menu_item_id": 1,
+        "name": "Smash Burger",
+        "quantity": 4,
+        "unit_price": 320
+      }
+    ],
+    "total": 1280,
+    "payment_method": "online",
+    "estimated_minutes": 12,
+    "created_at": "2026-06-18T20:30:50.906233"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "status": "pending",
+    "items": [
+      {
+        "menu_item_id": 2,
+        "name": "Wrap Pollo",
+        "quantity": 67,
+        "unit_price": 280
+      }
+    ],
+    "total": 18760,
+    "payment_method": "online",
+    "estimated_minutes": 12,
+    "created_at": "2026-06-18T20:32:07.039160"
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "status": "pending",
+    "items": [
+      {
+        "menu_item_id": 1,
+        "name": "Smash Burger",
+        "quantity": 2,
+        "unit_price": 320
+      }
+    ],
+    "total": 640,
+    "payment_method": "cash",
+    "estimated_minutes": 12,
+    "created_at": "2026-06-18T20:48:18.750499"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "status": "delivered",
+    "items": [
+      {
+        "menu_item_id": 1,
+        "name": "Smash Burger",
+        "quantity": 1,
+        "unit_price": 320
+      }
+    ],
+    "total": 320,
+    "payment_method": "online",
+    "estimated_minutes": 12,
+    "created_at": "2026-06-23T18:33:11.524590"
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "status": "delivered",
+    "items": [
+      {
+        "menu_item_id": 1,
+        "name": "Smash Burger",
+        "quantity": 1,
+        "unit_price": 320
+      }
+    ],
+    "total": 320,
+    "payment_method": "online",
+    "estimated_minutes": 12,
+    "created_at": "2026-06-23T18:34:59.938578"
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "status": "delivered",
+    "items": [
+      {
+        "menu_item_id": 1,
+        "name": "Smash Burger",
+        "quantity": 1,
+        "unit_price": 320
+      }
+    ],
+    "total": 320,
+    "payment_method": "online",
+    "estimated_minutes": 12,
+    "created_at": "2026-06-23T18:35:35.640209"
   }
 ]

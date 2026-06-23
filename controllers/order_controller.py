@@ -7,7 +7,7 @@ from views.order_view import (
 from models import order as order_model
 from models import menu_item as menu_model
 
-router = APIRouter(prefix="/orders", tags=["Pedidos"])
+router = APIRouter(prefix="/orders", tags=["MVC - Pedidos"])
 
 @router.get("/summary", response_model=OrderSummaryResponse, summary="Contadores por estado")
 def get_summary():

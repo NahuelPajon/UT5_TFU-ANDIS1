@@ -38,3 +38,8 @@ class OrderSummaryResponse(BaseModel):
     preparing: int
     ready:     int
     delivered: int
+
+class OrderTrackingStateResponse(BaseModel):
+    orderStatus:   str
+    estimatedTime: int
+    isLoading:     bool
